@@ -1,6 +1,6 @@
 # Filesophy
 
-This code comprises a web application that can be built with Maven if you really wanted to, or check it out here filesophy.herokuapp.com
+This code comprises a web application that can be built with Maven if you really wanted to, or check it out here http://filesophy.herokuapp.com
 
 It is a rough proof-of-concept design that modernizes uploading by adding seamless HTML5 fault tolerance to swerve around errors and prevent the user from having to repeat the process if a disconnection happens.
 
