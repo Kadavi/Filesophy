@@ -1,0 +1,209 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #000 url(../images/Filesophy_Stage.png) center center fixed no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#filter {
+    opacity: 1.0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+#float {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    width: 20%;
+    height: 40%;
+    overflow: visible;
+    z-index: 1;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+
+    animation: floating 5s linear 2s infinite alternate;
+    /* Firefox: */
+    -moz-animation: floating 5s linear 2s infinite alternate;
+    /* Safari and Chrome: */
+    -webkit-animation: floating 2s linear 1s infinite alternate;
+    /* Opera: */
+    -o-animation: floating 5s linear 2s infinite alternate;
+
+}
+
+@-moz-keyframes floating
+        {
+            0%   {top: 20%;}
+            100% {top: 22%;}
+        }
+
+@-webkit-keyframes floating
+        {
+            0%   {top: 20%;}
+            100% {top: 22%;}
+        }
+
+@-o-keyframes floating
+        {
+            0%   {top: 20%;}
+            100% {top: 22%;}
+        }
+
+#top {
+    position: relative;
+    width: 100%;
+    height: 40%;
+
+    background-image: url(../images/dropzonebutton.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: visible;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+
+}
+
+#bottom {
+    opacity: 0.6;
+    visibility: visible;
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 70%;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    padding: 10px;
+    background-image: url(../images/logconsole.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: visible;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
+
+#logger {
+    border: 1px inset #708090;
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    resize: none;
+    color: white;
+    background-color: black;
+}
+
+#hint {
+    font-size: medium;
+    margin-top: 52px;
+    margin-bottom: 0px;
+    color: #35BFFF;
+    text-shadow: #EEEE00 0 0 10px;
+    text-align: center;
+}
+
+#directuploadbutton {
+    color: #91DCFF;
+}
+
+.bar {
+    position: relative;
+    width: 96%;
+    top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+#torch {
+
+    position: absolute;
+    left: 44%;
+    top: 30%;;
+    width: 30%;
+    height: 30%;
+    background-image: url(../images/firetorch.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: visible;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    z-index: 0;
+
+}
+
+#faqlink {
+    opacity: 0.5;
+    font-size: small;
+    margin-top: 42px;
+    margin-bottom: 0px;
+    color: #35BFFF;
+    text-shadow: white 0 0 10px;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head, li, h2 {
+    margin-bottom: 15px;
+}
+
+.head {
+    color: #35BFFF;
+    display: block;
+}
+
+.content {
+    color: white;
+    display: none;
+}
+
+#container {
+    position: absolute;
+    text-shadow: white 0 0 10px;
+    left: 40%;
+    top: 20%;
+    width: 30%;
+    height: 50%;
+    color: white;
+    overflow: visible;
+    z-index: 1;
+}
+
+li {
+    position: relative;
+    overflow: hidden;
+}
+
+#faq {
+    opacity: 0.5;
+    font-size: small;
+    color: #35BFFF;
+    text-shadow: white 0 0 10px;
+    text-align: center;
+}
