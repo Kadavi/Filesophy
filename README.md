@@ -1,6 +1,10 @@
-# Spring MVC and Hibernate template application
+# Filesophy
 
-This is a template for a web application that uses Spring MVC and Hibernate. The sample code is a simple CRUD page that manipulates records for a single model object.
+This code comprises a web application that can be built with Maven if you really wanted to, or check it out here filesophy.herokuapp.com
+
+It is a rough proof-of-concept design that modernizes uploading by adding seamless HTML5 fault tolerance to swerve around errors and prevent the user from having to repeat the process if a disconnection happens.
+
+Bottom line: if you disconnect your internet connection during an upload using Filesophy, it will wait for a signal and continue normally.
 
 ## Running the application locally
 
